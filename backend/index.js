@@ -33,10 +33,10 @@ app.post("/create-task", async (req, res) => {
       return res.status(400).json({
         message: "Description is required",
       });
-    }
+    }  
 
     if (!["High", "Medium", "Low"].includes(priority)) {
-      return res.status(400).json({
+      return res.status(401).json({
         message: "Invalid Priority",
       });
     }
