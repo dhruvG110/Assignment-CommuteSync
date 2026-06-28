@@ -1,0 +1,8 @@
+@import "tailwindcss";
+:root{
+  margin: 0;
+  padding: 0;
+  background: #000;
+  box-sizing: border-box;
+  color: aliceblue;
+}

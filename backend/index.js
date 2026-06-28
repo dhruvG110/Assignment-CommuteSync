@@ -3,7 +3,7 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 
 const connectDb = require("./db/connect");
-const TaskModel = require("./db/tashSchema");
+const TaskModel = require("./db/taskSchema");
 
 dotenv.config();
 
